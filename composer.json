@@ -1,0 +1,13 @@
+{
+    "name": "eduroo/framework",
+    "description": "E-learning Framework unleashing the power of Open-Source",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Tobiasz",
+            "email": "jakub@eduroo.dev"
+        }
+    ],
+    "require": {}
+}
