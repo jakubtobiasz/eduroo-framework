@@ -1,0 +1,22 @@
+{
+  "name": "eduroo/extension",
+  "description": "Complex extensions system for Eduroo",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Eduroo\\Component\\Extension\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jakub Tobiasz",
+      "email": "jakub@eduroo.dev"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-main": "0.1-dev"
+    }
+  }
+}

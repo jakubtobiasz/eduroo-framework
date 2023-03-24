@@ -11,7 +11,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Eduroo\\Component\\": "components/"
+            "Eduroo\\Component\\": "components/",
+            "Eduroo\\Component\\Extension\\": "components/Extension/src/"
         }
     },
     "autoload-dev": {
@@ -25,8 +26,11 @@
         }
     },
     "require-dev": {
-        "symplify/monorepo-builder": "11.2.2.72",
         "pestphp/pest": "^2.2",
-        "symplify/easy-coding-standard": "^11.3"
+        "symplify/easy-coding-standard": "^11.3",
+        "symplify/monorepo-builder": "11.2.2.72"
+    },
+    "replace": {
+        "eduroo/extension": "self.version"
     }
 }
