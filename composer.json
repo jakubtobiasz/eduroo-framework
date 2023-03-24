@@ -9,5 +9,7 @@
             "email": "jakub@eduroo.dev"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "symplify/monorepo-builder": "11.2.2.72"
+    }
 }
