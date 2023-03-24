@@ -9,6 +9,7 @@ return static function (MBConfig $mbConfig): void {
 
     $mbConfig->dataToAppend([
         'require-dev' => [
+            'captainhook/captainhook' => '^5.16',
             'pestphp/pest' => '^2.2',
             'phpstan/phpstan' => '^1.10',
             'symplify/monorepo-builder' => '11.2.2.72',
