@@ -13,6 +13,7 @@ return static function (MBConfig $mbConfig): void {
             'phpstan/phpstan' => '^1.10',
             'symplify/monorepo-builder' => '11.2.2.72',
             'symplify/easy-coding-standard' => '^11.3',
+            'vimeo/psalm' => '^5.8'
         ]
     ]);
 };
