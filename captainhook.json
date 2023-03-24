@@ -13,6 +13,9 @@
       },
       {
         "action": "vendor/bin/pest"
+      },
+      {
+        "action": "vendor/bin/deptrac"
       }
     ]
   }
