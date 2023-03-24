@@ -10,6 +10,7 @@ return static function (MBConfig $mbConfig): void {
     $mbConfig->dataToAppend([
         'require-dev' => [
             'captainhook/captainhook' => '^5.16',
+            'mockery/mockery' => '^1.5',
             'pestphp/pest' => '^2.2',
             'phpstan/phpstan' => '^1.10',
             'qossmic/deptrac-shim' => '^1.0',

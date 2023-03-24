@@ -16,6 +16,9 @@
       },
       {
         "action": "vendor/bin/deptrac"
+      },
+      {
+        "action": "vendor/bin/ecs --fix"
       }
     ]
   }

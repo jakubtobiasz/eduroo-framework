@@ -8,7 +8,6 @@
 >
     <projectFiles>
         <directory name="components" />
-        <directory name="tests" />
         <ignoreFiles>
             <directory name="vendor" />
         </ignoreFiles>
