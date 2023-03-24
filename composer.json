@@ -9,7 +9,23 @@
             "email": "jakub@eduroo.dev"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Eduroo\\Component\\": "components/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
     "require-dev": {
-        "symplify/monorepo-builder": "11.2.2.72"
+        "symplify/monorepo-builder": "11.2.2.72",
+        "pestphp/pest": "^2.2"
     }
 }
