@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-use Eduroo\Component\Extension\Application\Registry\TemplateHooksRegistry;
+use Eduroo\Component\Extension\Application\TemplateHook\Registry\TemplateHooksRegistry;
 use Eduroo\Component\Extension\Application\TemplateHook\TemplateHookInterface;
 
 it('should return empty array when no hooks are registered', function (): void {

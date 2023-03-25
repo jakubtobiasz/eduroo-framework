@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Eduroo\Component\Extension\Application\Renderer\Exception;
+namespace Eduroo\Component\Extension\Application\TemplateHook\Renderer\Exception;
 
 use Exception;
 use Throwable;

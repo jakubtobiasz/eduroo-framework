@@ -11,10 +11,10 @@
 
 declare(strict_types=1);
 
-namespace Eduroo\Component\Extension\Application\Renderer;
+namespace Eduroo\Component\Extension\Application\TemplateHook\Renderer;
 
-use Eduroo\Component\Extension\Application\Registry\TemplateHooksRegistryInterface;
-use Eduroo\Component\Extension\Application\Renderer\Exception\RenderingException;
+use Eduroo\Component\Extension\Application\TemplateHook\Registry\TemplateHooksRegistryInterface;
+use Eduroo\Component\Extension\Application\TemplateHook\Renderer\Exception\RenderingException;
 
 final readonly class TemplateHookMountRenderer implements TemplateHookMountRendererInterface
 {

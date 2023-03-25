@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace Eduroo\Component\Extension\Application\TemplateHook;
 
-use Eduroo\Component\Extension\Application\Renderer\Exception\RenderingException;
-use Eduroo\Component\Extension\Application\Renderer\RendererInterface;
+use Eduroo\Component\Extension\Application\TemplateHook\Renderer\Exception\RenderingException;
+use Eduroo\Component\Extension\Application\TemplateHook\Renderer\RendererInterface;
 
 interface TemplateHookInterface
 {

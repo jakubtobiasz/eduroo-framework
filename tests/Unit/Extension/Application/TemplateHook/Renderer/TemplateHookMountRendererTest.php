@@ -11,8 +11,9 @@
 
 declare(strict_types=1);
 
-use Eduroo\Component\Extension\Application\Registry\TemplateHooksRegistryInterface;
-use Eduroo\Component\Extension\Application\Renderer\{RendererInterface, TemplateHookMountRenderer};
+use Eduroo\Component\Extension\Application\TemplateHook\Registry\TemplateHooksRegistryInterface;
+use Eduroo\Component\Extension\Application\TemplateHook\Renderer\TemplateHookMountRenderer;
+use Eduroo\Component\Extension\Application\TemplateHook\Renderer\{RendererInterface};
 use Eduroo\Component\Extension\Application\TemplateHook\TemplateHookInterface;
 
 it('should render template hooks for a given hook mount', function (): void {

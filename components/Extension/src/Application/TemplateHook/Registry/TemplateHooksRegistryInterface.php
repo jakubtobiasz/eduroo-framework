@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Eduroo\Component\Extension\Application\Registry;
+namespace Eduroo\Component\Extension\Application\TemplateHook\Registry;
 
 use Eduroo\Component\Extension\Application\TemplateHook\TemplateHookInterface;
 

@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Eduroo\Component\Extension\Application\Attribute;
+namespace Eduroo\Component\Extension\Application\TemplateHook\Attribute;
 
 use Attribute;
 

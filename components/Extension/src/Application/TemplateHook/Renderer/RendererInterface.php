@@ -11,9 +11,9 @@
 
 declare(strict_types=1);
 
-namespace Eduroo\Component\Extension\Application\Renderer;
+namespace Eduroo\Component\Extension\Application\TemplateHook\Renderer;
 
-use Eduroo\Component\Extension\Application\Renderer\Exception\RenderingException;
+use Eduroo\Component\Extension\Application\TemplateHook\Renderer\Exception\RenderingException;
 
 interface RendererInterface
 {
