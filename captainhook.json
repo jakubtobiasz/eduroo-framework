@@ -12,13 +12,13 @@
         "action": "vendor/bin/phpstan analyse"
       },
       {
-        "action": "vendor/bin/pest"
-      },
-      {
         "action": "vendor/bin/deptrac"
       },
       {
-        "action": "vendor/bin/ecs --fix"
+        "action": "vendor/bin/ecs"
+      },
+      {
+        "action": "vendor/bin/pest"
       }
     ]
   }
